@@ -1,7 +1,9 @@
 import * as Handler from './handler';
 
-test('Handler is a handler', async () => {
-  const result = await Handler.handler();
+describe('Handler', () => {
+  test('should return a 200 response', async () => {
+    const result = await Handler.handler();
 
-  expect(result.statusCode).toEqual(200);
+    expect(result.statusCode).toEqual(200);
+  });
 });
