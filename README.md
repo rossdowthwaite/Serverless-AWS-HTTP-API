@@ -10,7 +10,14 @@
 - [Serverless](https://www.serverless.com/framework/docs/)
 - [Jest](https://jestjs.io/en/)
 
+## Usage
+
 ## Development
+
+### Things to do:
+
+- JWT Authentication
+- Make it do something more exciting...
 
 ## Testing
 
